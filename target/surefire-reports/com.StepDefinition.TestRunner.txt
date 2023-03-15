@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.StepDefinition.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 93.002 s - in com.StepDefinition.TestRunner

@@ -1,0 +1,385 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-15T18:30:33.953Z",
+        "line": 3,
+        "name": "BeardOil Price scenario",
+        "description": "",
+        "id": "beardoil-feature;beardoil-price-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29374536000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launches the application",
+            "match": {
+              "location": "com.StepDefinition.FlipOilStepDefinition.user_launches_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200018700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User quits the button",
+            "match": {
+              "location": "com.StepDefinition.FlipOilStepDefinition.user_quits_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491035800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters beard oil name",
+            "match": {
+              "location": "com.StepDefinition.FlipOilStepDefinition.user_enters_beard_oil_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2007149600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User choose the beard oil",
+            "match": {
+              "location": "com.StepDefinition.FlipOilStepDefinition.user_choose_the_beard_oil()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7060522900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Validates the price",
+            "match": {
+              "location": "com.StepDefinition.FlipOilStepDefinition.user_validates_the_price()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BeardOil feature",
+    "description": "",
+    "id": "beardoil-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/FlipOil.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "PreConditions of the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7136630400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launches the app",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_launches_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213016200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User quit the button",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_quit_the_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-15T18:31:13.263Z",
+        "line": 6,
+        "name": "Phones scenario",
+        "description": "",
+        "id": "mobile-phones-feature;phones-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 413030800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the phone name",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_enters_the_phone_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4713364500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User prints the phone name",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_prints_the_phone_name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "PreConditions of the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6788343600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launches the app",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_launches_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406029700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User quit the button",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_quit_the_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-15T18:31:25.767Z",
+        "line": 16,
+        "name": "Multiple phones scenario",
+        "description": "",
+        "id": "mobile-phones-feature;multiple-phones-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 318022800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the multiple phones names \"SAMSUNG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SAMSUNG\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_enters_the_multiple_phones_names(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4790512500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates the multiple phone names",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_validates_the_multiple_phone_names()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "PreConditions of the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6859034000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launches the app",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_launches_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 413030600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User quit the button",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_quit_the_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-15T18:31:38.081Z",
+        "line": 17,
+        "name": "Multiple phones scenario",
+        "description": "",
+        "id": "mobile-phones-feature;multiple-phones-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 249018200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the multiple phones names \"OPPO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OPPO\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_enters_the_multiple_phones_names(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5113375500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates the multiple phone names",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_validates_the_multiple_phone_names()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "PreConditions of the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9365963700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launches the app",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_launches_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 495035200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User quit the button",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_quit_the_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-15T18:31:50.733Z",
+        "line": 18,
+        "name": "Multiple phones scenario",
+        "description": "",
+        "id": "mobile-phones-feature;multiple-phones-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 274021400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters the multiple phones names \"LG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LG\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_enters_the_multiple_phones_names(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4497331100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Validates the multiple phone names",
+            "match": {
+              "location": "com.StepDefinition.FlipPhonesstepdefinition.user_validates_the_multiple_phone_names()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mobile Phones feature",
+    "description": "",
+    "id": "mobile-phones-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Flipphones.feature",
+    "tags": []
+  }
+]
